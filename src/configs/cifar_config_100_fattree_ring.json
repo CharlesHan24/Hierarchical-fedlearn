@@ -1,0 +1,18 @@
+{
+    "n": 101,
+    "tot_rounds": 1000,
+    "batch_size": 50,
+    "lr": 0.1,
+    "average_completion_time": 10,
+    "ratio": 0.2,
+    "portion": 0.1,
+    "correct_ratio": 0.63,
+    "ngroup": 1,
+    "global_round_time": 0.19,
+    "dataset": "cifar",
+    "net": "LecunNet",
+    "bottleneck_group_num": 14,
+    "policy": "ring_all_reduce",
+    "topology": "var_fat_tree_10.gt",
+    "log": "log3.txt"
+}

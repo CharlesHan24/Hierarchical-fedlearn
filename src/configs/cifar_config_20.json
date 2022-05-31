@@ -1,0 +1,16 @@
+{
+    "n": 20,
+    "tot_rounds": 100,
+    "batch_size": 50,
+    "lr": 0.003,
+    "average_completion_time": 10,
+    "ratio": 0.2,
+    "portion": 0.1,
+    "correct_ratio": 0.95,
+    "ngroup": 1,
+    "global_round_time": 1,
+    "dataset": "cifar",
+    "net": "LecunNet",
+    "bottleneck_group_num": 3,
+    "policy": "fedavg_ring"
+}
